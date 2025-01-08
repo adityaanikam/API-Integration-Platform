@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+<h1>Welcome to Your Landing Page</h1>
+<form action="/api/landing/create" method="post">
+    <label for="title">Page Title:</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    <label for="content">Content:</label>
+    <textarea id="content" name="content" required></textarea>
+    <br>
+    <button type="submit">Create Landing Page</button>
+</form>
+</body>
+</html>
